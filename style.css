@@ -1,0 +1,37 @@
+
+body{
+    margin: 0;
+}
+
+.page{
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightblue;
+}
+
+#container{
+    min-width: 50vw;
+    min-height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#data{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.siteElement{
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
